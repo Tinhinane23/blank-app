@@ -24,7 +24,7 @@ st.caption("Un simulateur visuel pour assembler, ajuster et analyser vos tâches
 
 # 🧱 Briques disponibles
 briques_disponibles = [
-    {"Nom": "Contrat direct", "Temps": 15, "Catégorie": "contractualisation"},
+    {"Nom": "Discours facteur", "Temps": 15, "Catégorie": "contractualisation"},
     {"Nom": "Portail", "Temps": 5, "Catégorie": "contractualisation"},
     {"Nom": "Prise en charge véhicule", "Temps": 30, "Catégorie": "collecte"},
     {"Nom": "Dépose véhicule", "Temps": 25, "Catégorie": "collecte"},

@@ -118,7 +118,7 @@ with col2:
 
         grouped = st.session_state.briques_mission.groupby("Catégorie")["Temps"].sum().reset_index()
 
-        fig = px.bar(
+        fig = bar(
             grouped,
             x="Catégorie", y="Temps",
             color="Catégorie",

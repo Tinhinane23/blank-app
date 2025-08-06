@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 import json
 
 # Configuration
@@ -118,7 +119,7 @@ with col2:
 
         grouped = st.session_state.briques_mission.groupby("Catégorie")["Temps"].sum().reset_index()
 
-        fig = bar(
+        fig = px.bar(
             grouped,
             x="Catégorie", y="Temps",
             color="Catégorie",
